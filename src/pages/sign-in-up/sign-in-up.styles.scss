@@ -1,0 +1,12 @@
+.sign-in-up-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1000px) {
+  .sign-in-up-container {
+    flex-direction: row;
+  }
+}

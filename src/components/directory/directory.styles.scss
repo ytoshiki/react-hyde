@@ -1,0 +1,12 @@
+.directory-menu {
+  width: 80%;
+  margin: 0px auto 25px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .directory-menu {
+    flex-direction: row;
+  }
+}

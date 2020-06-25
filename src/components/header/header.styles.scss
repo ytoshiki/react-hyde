@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+
+  .header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(161, 161, 161);
+
+    .logo-container {
+      display: flex;
+
+      .logo {
+        margin: 0 15px;
+      }
+
+      .cart-logo {
+        position: relative;
+
+        .count {
+          position: absolute;
+          right: 20%;
+          font-family: "Montserrat", sans-serif;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .header_bottom {
+    padding: 15px 0;
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.store-name {
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.user {
+  color: green;
+}

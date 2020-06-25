@@ -1,0 +1,17 @@
+.signIn {
+  flex: 1;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+}
+
+@media (min-width: 1000px) {
+  .signIn {
+    margin: 0;
+  }
+}

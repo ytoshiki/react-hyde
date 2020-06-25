@@ -1,0 +1,32 @@
+.category-item-container {
+  width: 50%;
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-out all 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+    transition: ease-out 0.2s;
+  }
+
+  .category-item-name {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 800px) {
+  .category-item-container {
+    height: 50vh;
+  }
+
+  .category-item-name {
+    font-size: 2.5rem !important;
+  }
+}

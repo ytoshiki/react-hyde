@@ -1,0 +1,71 @@
+$main-color: #ccb9aa;
+$sub-color: #f5f0eb;
+
+.sub-header {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+
+  &_left {
+    display: none;
+    width: 30%;
+
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background: $main-color;
+
+    .catchCopy {
+      font-size: 2rem;
+    }
+
+    .go-to-shop_container {
+      margin-top: 30px;
+    }
+
+    .go-to-shop {
+      font-size: 1.2rem;
+      border: 1px solid white;
+      border-radius: 25px;
+      padding: 12px 60px;
+      background: white;
+    }
+  }
+
+  &_right {
+    .image-container {
+      display: flex;
+      justify-content: inherit;
+      padding: 30px 10px;
+      background-color: $sub-color;
+
+      img {
+        width: 30%;
+        margin: 0 10px;
+      }
+    }
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .catchCopy {
+    font-size: 3rem !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .sub-header_left {
+    display: flex;
+  }
+
+  .sub-header_right {
+    width: 80%;
+  }
+}
