@@ -17,9 +17,16 @@ const Homepage = () => (
 
       <div className='sub-header_right'>
         <div className='image-container'>
-          <img src={ImageOne} alt='' />
-          <img src={ImageTwo} alt='' />
-          <img src={ImageThree} alt='' />
+          <div className='img-wrapper'>
+            <img src={ImageOne} alt='' />
+          </div>
+          <div className='img-wrapper'>
+            <img src={ImageTwo} alt='' />
+          </div>
+
+          <div className='img-wrapper'>
+            <img src={ImageThree} alt='' />
+          </div>
         </div>
       </div>
     </div>

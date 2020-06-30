@@ -39,13 +39,17 @@ $sub-color: #f5f0eb;
     .image-container {
       display: flex;
       justify-content: inherit;
-      padding: 30px 10px;
+      padding: 20px 10px;
       background-color: $sub-color;
 
-      img {
+      .img-wrapper {
         width: 30%;
-        height: auto;
         margin: 0 5px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
       }
     }
     width: 100%;
@@ -69,8 +73,13 @@ $sub-color: #f5f0eb;
   .sub-header_right {
     width: 80%;
 
+    .image-container {
+      padding: 30px 10px;
+    }
+
     img {
       width: 30%;
+
       margin: 0 10px;
     }
   }
